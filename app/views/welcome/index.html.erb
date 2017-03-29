@@ -1,5 +1,6 @@
 <%= form_for(@zipcode) do |f| %>
-    f.input_field "Search"
-    f.text_field f.text
+    <%= Search: f.input_field :search %>
+    <%=  %>  f.text_field :zipcode
+    <%= f.submit %> 
 <% end %>
   

@@ -27,9 +27,9 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Wed, 29 Mar 2017 16:15:24 GMT
+      - Wed, 29 Mar 2017 16:18:59 GMT
       Last-Modified:
-      - Wed, 29 Mar 2017 16:15:24 GMT
+      - Wed, 29 Mar 2017 16:18:59 GMT
       Server:
       - openresty
       Vary:
@@ -43,11 +43,11 @@ http_interactions:
       X-Ratelimit-Limit:
       - '1000'
       X-Ratelimit-Remaining:
-      - '993'
+      - '992'
       X-Request-Id:
-      - 24fdd17f-21c8-4018-accf-07af0a87c02a
+      - fca6daec-d4e2-4d9c-a167-60096bb0a1a9
       X-Runtime:
-      - '0.013326'
+      - '0.009522'
       Transfer-Encoding:
       - chunked
       Connection:
@@ -60,5 +60,5 @@ http_interactions:
         Acoma St","zip":"80204","bd_blends":null,"e85_blender_pump":null,"ev_connector_types":["J1772"],"ev_dc_fast_num":null,"ev_level1_evse_num":null,"ev_level2_evse_num":2,"ev_network":"ChargePoint
         Network","ev_network_web":"http://www.chargepoint.com/","ev_other_evse":null,"hy_status_link":null,"lpg_primary":null,"ng_fill_type_code":null,"ng_psi":null,"ng_vehicle_class":null,"ev_network_ids":{"posts":["1:118249"]},"distance":0.3117}]}'
     http_version: 
-  recorded_at: Wed, 29 Mar 2017 16:15:24 GMT
+  recorded_at: Wed, 29 Mar 2017 16:18:59 GMT
 recorded_with: VCR 3.0.3

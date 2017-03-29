@@ -4,7 +4,7 @@ RSpec.feature "user visits root page", :vcr do
   scenario "user searches for zipcode", :vcr do
       visit "/"
 
-      fill_in() "Search", with("80203")
+      fill_in("Search", :with => "80203")
       click_on "Locate"
 
       expect(path).to be("/search")

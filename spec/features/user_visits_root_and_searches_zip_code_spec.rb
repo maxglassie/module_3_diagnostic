@@ -2,7 +2,14 @@ require 'rails_helper'
 
 RSpec.feature "user visits root page", :vcr do
   scenario "user searches for zipcode", :vcr do
-      # As a user
+      visit "/"
+
+      fill_in() "Search", with("80203")
+      click_on "Locate"
+
+      expect(path).to be("/search")
+
+      expect(page).to have_content("UDR")
       # When I visit "/"
       # And I fill in the search form with 80203
       # And I click "Locate"
